@@ -1,0 +1,9 @@
+index,file,sha256,rows,first,last,onsets,eligible
+VIX9D,extension/E03_forecast/raw/VIX9D.csv,71808e29e5eb9bf097ec5851d1370a07476ee74079df304d8f14d60fc0ce2e45,3980,2011-01-04,2026-10-30,21,9
+VIX30D,extension/E03_forecast/raw/VIX30D.csv,a5409500cdb8fdd86ba926dcfc7de5b1a54d365d4b7850a1a50c803ae57fddd1,9306,1990-01-02,2026-10-30,33,19
+VIX3M,extension/E03_forecast/raw/VIX3M.csv,35cd1371eb605c382f8075cd6f02841887d4284d268daaf613300b627263478d,4306,2009-09-18,2026-10-30,22,10
+VIX6M,extension/E03_forecast/raw/VIX6M.csv,772cc29dbae9efbfcd376114bf1d48d6dd4268148b700fb8111c3f8e8476cdb4,4738,2008-01-02,2026-10-30,25,12
+VXN,extension/E05_larger_sample/fresh_public_v5/private_sources/VXN_History.csv,febd159dcadd600281eff76a5d00bf87d973b1ca18713c69f3bc433829da530c,4312,2009-09-14,2026-10-30,17,11
+RVX,extension/E05_larger_sample/fresh_public_v5/private_sources/RVX_History.csv,476a9891e5f50e82eff08a484edc0c7f391ab07732ac7df020616c9a66f3189f,4303,2009-09-16,2026-10-30,12,8
+OVX,extension/E05_larger_sample/fresh_public_v5/private_sources/OVX_History.csv,8ab781d036d9576612aa868bcfc2900f854913aaeb5c6b4078cb4a0235b4e967,4304,2009-09-18,2026-10-30,14,8
+GVZ,extension/E05_larger_sample/fresh_public_v5/private_sources/GVZ_History.csv,8c4b43e6d9c9a2393dfdba75aa7f1ee053162fb05ebe98f546e595bc9381a577,4304,2009-09-18,2026-10-30,9,7

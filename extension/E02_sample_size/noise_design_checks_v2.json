@@ -1,0 +1,50 @@
+{
+  "boundary_excluded": [
+    "b"
+  ],
+  "boundary_selected": [
+    "a",
+    "c"
+  ],
+  "forced_overlap": true,
+  "independent_block_starts": [
+    [
+      8,
+      21,
+      102,
+      94,
+      39,
+      51,
+      99,
+      29,
+      17,
+      61,
+      20,
+      96,
+      9
+    ],
+    [
+      96,
+      64,
+      67,
+      77,
+      17,
+      78,
+      61,
+      53,
+      90,
+      56,
+      111,
+      7,
+      59
+    ]
+  ],
+  "independent_source_rows": [
+    4,
+    0
+  ],
+  "interpretation": "synthetic implementation test; observed cohort is audited separately",
+  "passed": true,
+  "seed": 9740322079377583754,
+  "shared_coordinates_checked": 119
+}

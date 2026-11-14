@@ -1,0 +1,95 @@
+[
+  {
+    "index": "VXN",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VXN_History.csv",
+    "sha256": "febd159dcadd600281eff76a5d00bf87d973b1ca18713c69f3bc433829da530c",
+    "raw_rows": 4312,
+    "valid_rows": 4312,
+    "invalid_rows": 0,
+    "first_date": "2009-09-14",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "RVX",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/RVX_History.csv",
+    "sha256": "476a9891e5f50e82eff08a484edc0c7f391ab07732ac7df020616c9a66f3189f",
+    "raw_rows": 4303,
+    "valid_rows": 4303,
+    "invalid_rows": 0,
+    "first_date": "2009-09-16",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "OVX",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/OVX_History.csv",
+    "sha256": "8ab781d036d9576612aa868bcfc2900f854913aaeb5c6b4078cb4a0235b4e967",
+    "raw_rows": 4304,
+    "valid_rows": 4304,
+    "invalid_rows": 0,
+    "first_date": "2009-09-18",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "GVZ",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/GVZ_History.csv",
+    "sha256": "8c4b43e6d9c9a2393dfdba75aa7f1ee053162fb05ebe98f546e595bc9381a577",
+    "raw_rows": 4304,
+    "valid_rows": 4304,
+    "invalid_rows": 0,
+    "first_date": "2009-09-18",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "VXEEM",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VXEEM_History.csv",
+    "sha256": "00379b73949477f44e0a8197331751da00303a6c006340d908c28aa243d51ba9",
+    "raw_rows": 3927,
+    "valid_rows": 3927,
+    "invalid_rows": 0,
+    "first_date": "2011-03-16",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "VXAPL",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VXAPL_History.csv",
+    "sha256": "191718b159c2595c61c90fb6b63bfe13f376c59fbcdd7d68f6661d7f6ad0ddd9",
+    "raw_rows": 3973,
+    "valid_rows": 3973,
+    "invalid_rows": 0,
+    "first_date": "2011-01-07",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "VXAZN",
+    "source_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VXAZN_History.csv",
+    "sha256": "7ce680a5015dd1ddcf3267b8fb6daab67dc443bb4d67e165287581349783a8f0",
+    "raw_rows": 3973,
+    "valid_rows": 3973,
+    "invalid_rows": 0,
+    "first_date": "2011-01-07",
+    "last_date": "2026-10-30",
+    "invalid": []
+  },
+  {
+    "index": "NIKKEI225VI",
+    "source_url": "https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_vi_daily_en.csv",
+    "sha256": "0a8a018f79df23aad06d72962a068afacfbe1852ec46a00bb21d4295c397f37e",
+    "raw_rows": 937,
+    "valid_rows": 936,
+    "invalid_rows": 1,
+    "first_date": "2023-01-04",
+    "last_date": "2026-11-02",
+    "invalid": [
+      {
+        "line": 938,
+        "reason": "time data 'This material is a copyrightable work of Nikkei. It is prohibited to copy, reproduce, reprint, or circulate all or part of this material in any form without Nikkei\u2019s permission.' does not match format '%Y-%m-%d'"
+      }
+    ]
+  }
+]

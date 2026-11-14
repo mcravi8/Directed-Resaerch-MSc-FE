@@ -1,0 +1,182 @@
+{
+  "empirical": {
+    "raw_detected": 34,
+    "common_eligible": 17,
+    "named_merged_catalog": 33,
+    "anchor_exclusions": {
+      "argmax": {
+        "prehistory": 1,
+        "next_onset": 14
+      },
+      "onset5": {
+        "prehistory": 1,
+        "next_onset": 14,
+        "nonpositive normalization denominator": 2
+      }
+    }
+  },
+  "processes": {
+    "OU": {
+      "status": "NOT CALIBRATABLE",
+      "median_raw_detected": 1,
+      "median_common_eligible": 0,
+      "path_raw_detected": [
+        0,
+        1,
+        4,
+        0,
+        3,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "path_common_eligible": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "gates": {
+        "theory_acf": true,
+        "median_mean_sd": true,
+        "median_acf": true,
+        "detected_20_50": false,
+        "eligible_at_least_12": false
+      },
+      "parameters": [
+        114.13948031975886
+      ],
+      "theory_acf_residual": [
+        0.011389805208061099,
+        0.03443144757415173,
+        -0.04897589549460657
+      ],
+      "median_generated_moment_residual": [
+        -0.020217166278980514,
+        -0.01568393513879246,
+        0.010506953816071252,
+        0.02320097981307334,
+        -0.07853227359665471
+      ]
+    },
+    "2OU": {
+      "status": "NOT CALIBRATABLE",
+      "median_raw_detected": 11,
+      "median_common_eligible": 7,
+      "path_raw_detected": [
+        1,
+        12,
+        19,
+        13,
+        9,
+        12,
+        12,
+        10,
+        7,
+        9,
+        11
+      ],
+      "path_common_eligible": [
+        1,
+        9,
+        10,
+        8,
+        4,
+        7,
+        8,
+        5,
+        4,
+        6,
+        7
+      ],
+      "gates": {
+        "theory_acf": true,
+        "median_mean_sd": true,
+        "median_acf": true,
+        "detected_20_50": false,
+        "eligible_at_least_12": false
+      },
+      "parameters": [
+        6.830937270985738,
+        178.79642156243546,
+        0.11129345316415151
+      ],
+      "theory_acf_residual": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "median_generated_moment_residual": [
+        -0.004341077691512485,
+        -0.016655432089163202,
+        -0.0023961352069462594,
+        -0.02682042189526157,
+        -0.022671720045938315
+      ]
+    },
+    "ARFIMA": {
+      "status": "NOT CALIBRATABLE",
+      "median_raw_detected": 11,
+      "median_common_eligible": 3,
+      "path_raw_detected": [
+        215,
+        137,
+        11,
+        30,
+        0,
+        35,
+        3,
+        4,
+        0,
+        18,
+        0
+      ],
+      "path_common_eligible": [
+        3,
+        10,
+        11,
+        13,
+        0,
+        12,
+        2,
+        3,
+        0,
+        11,
+        0
+      ],
+      "gates": {
+        "theory_acf": false,
+        "median_mean_sd": false,
+        "median_acf": false,
+        "detected_20_50": false,
+        "eligible_at_least_12": false
+      },
+      "parameters": [
+        0.48828466837551593
+      ],
+      "theory_acf_residual": [
+        -0.02567572419966946,
+        0.09804338949844926,
+        0.24187617796098648
+      ],
+      "median_generated_moment_residual": [
+        0.11754859885787017,
+        -0.18893539298073028,
+        -0.20854830381791933,
+        -0.3686612305895198,
+        -0.3108660905065377
+      ]
+    }
+  },
+  "alignment_scope": "raw detector, 120 observed sessions, paired argmax/onset5 anchors; no confirmatory recovery"
+}

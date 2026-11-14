@@ -1,0 +1,17 @@
+design,maturity,n,HAR_better_E1,ties,E1_better_HAR
+onset5_primary,VIX30D,23,14,0,9
+onset5_primary,VIX3M,16,11,0,5
+onset5_primary,VIX6M,15,13,0,2
+onset5_primary,VIX9D,13,10,0,3
+onset5_sensitivity,VIX30D,23,16,0,7
+onset5_sensitivity,VIX3M,16,12,0,4
+onset5_sensitivity,VIX6M,15,7,0,8
+onset5_sensitivity,VIX9D,13,11,0,2
+peak_primary,VIX30D,24,16,0,8
+peak_primary,VIX3M,17,9,0,8
+peak_primary,VIX6M,16,8,0,8
+peak_primary,VIX9D,15,10,0,5
+peak_sensitivity,VIX30D,25,14,0,11
+peak_sensitivity,VIX3M,18,9,0,9
+peak_sensitivity,VIX6M,17,10,0,7
+peak_sensitivity,VIX9D,16,10,0,6

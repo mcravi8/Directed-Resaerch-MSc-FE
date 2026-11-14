@@ -1,0 +1,2 @@
+# Preserve frozen source bytes and original CSV line endings.
+* -text

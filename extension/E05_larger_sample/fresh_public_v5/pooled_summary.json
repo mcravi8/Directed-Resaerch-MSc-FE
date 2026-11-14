@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "freeze_sha": "77b5e53d292b572b1e97e77aec8e62918bb76d70503a874e1816e523eeb3314e",
+  "indices": [
+    "VIX9D",
+    "VIX30D",
+    "VIX3M",
+    "VIX6M",
+    "VXN",
+    "RVX",
+    "OVX",
+    "GVZ"
+  ],
+  "index_event_counts": {
+    "VIX9D": 9,
+    "VIX30D": 19,
+    "VIX3M": 10,
+    "VIX6M": 12,
+    "VXN": 11,
+    "RVX": 8,
+    "OVX": 8,
+    "GVZ": 7
+  },
+  "base_clusters": 7,
+  "point_fit_count": 8,
+  "expected_draws": 999,
+  "saved_draws": 999,
+  "valid_draws": 666,
+  "failed_draws": 333,
+  "draw_failure_reasons": {
+    "null": 666,
+    "missing_index": 333
+  },
+  "start5_winner": "E1",
+  "inferential_status": "unestimable: 7 observed clusters < 10 required"
+}

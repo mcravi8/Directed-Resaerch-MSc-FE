@@ -1,0 +1,7 @@
+start,contrast,point_difference,base_clusters,valid_draws,estimable,lo,hi,raw_p,holm_p,reason
+5,VIX9D-VIX30D,0.36389516238267205,1,999,0,,,,,too_few_clusters_draws_or_zero_ties
+5,VIX3M-VIX30D,3.648512453829504,1,999,0,,,,,too_few_clusters_draws_or_zero_ties
+5,VIX6M-VIX30D,9.20995858028164,1,999,0,,,,,too_few_clusters_draws_or_zero_ties
+1,VIX9D-VIX30D,-1.2289968618850668,1,999,0,,,,,too_few_clusters_draws_or_zero_ties
+1,VIX3M-VIX30D,5.839867807407874,1,999,0,,,,,too_few_clusters_draws_or_zero_ties
+1,VIX6M-VIX30D,12.002675588596663,1,999,0,,,,,too_few_clusters_draws_or_zero_ties

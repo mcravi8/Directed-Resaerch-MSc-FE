@@ -1,0 +1,19 @@
+{
+  "status": "proposed; live schema and entitlement unverified",
+  "official_public_documentation": "https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/optionmetrics/",
+  "official_page_confirms": "OptionMetrics product category includes historical implied volatility; no table-level schema or account entitlement",
+  "historical_local_draft": "Directed Research/wrds_extract/optionmetrics_spx_skew_extract.py; its IvyDB US table/field claims are assumptions",
+  "proposed_source": "OptionMetrics IvyDB US standardized daily volatility surface, annual vsurfdYYYY tables",
+  "proposed_security": "SPX secid 108105; identity requires security-master confirmation",
+  "proposed_fields": {
+    "secid": "security identifier; exact column and SPX identity unverified",
+    "date": "observation date; exact column unverified",
+    "days": "constant maturity in calendar days; unit and column unverified",
+    "delta": "option delta; sign and scale unverified",
+    "cp_flag": "call/put flag; conventions unverified",
+    "impl_volatility": "standardized implied volatility; decimal/percent units and column unverified"
+  },
+  "selection": "configurable secids; 1996-01-01 to 2026-10-30; 30 days; delta 50; call C; finite positive IV",
+  "output_columns": ["secid", "date", "days", "delta", "cp_flag", "iv", "source_table"],
+  "live_validation_required": ["entitlement", "official variable documentation", "security master identity", "annual table coverage", "field units and conventions", "observed row counts/date gaps", "license terms"]
+}

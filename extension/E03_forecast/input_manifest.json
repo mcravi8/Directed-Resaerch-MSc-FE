@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-11-02T01:26:48.143638+00:00",
+  "spec_sha256": "d8d1f831698006ad01f09a926630d323008c1f5af529952f0d98930a76e6e687",
+  "code_sha256": "3c23cab4d192c8e80e12129d7209122181f0feda07150aa774e55bcbc287800a",
+  "source_urls": {
+    "VIX30D": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "VIX9D": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+    "VIX3M": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv",
+    "VIX6M": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+  },
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "pandas": "2.2.3",
+  "seed": 5902026,
+  "ols_seed": "none",
+  "bootstrap_draws": 1999,
+  "snapshot_cutoff_rule": "max valid official VIX30D date no later than retrieval date",
+  "sources": {
+    "VIX30D": {
+      "sha256": "a5409500cdb8fdd86ba926dcfc7de5b1a54d365d4b7850a1a50c803ae57fddd1",
+      "bytes": 474349,
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+    },
+    "VIX9D": {
+      "sha256": "71808e29e5eb9bf097ec5851d1370a07476ee74079df304d8f14d60fc0ce2e45",
+      "bytes": 202172,
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+    },
+    "VIX3M": {
+      "sha256": "35cd1371eb605c382f8075cd6f02841887d4284d268daaf613300b627263478d",
+      "bytes": 219631,
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv"
+    },
+    "VIX6M": {
+      "sha256": "772cc29dbae9efbfcd376114bf1d48d6dd4268148b700fb8111c3f8e8476cdb4",
+      "bytes": 241663,
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+    }
+  },
+  "cutoff": "2026-10-30",
+  "source_frozen_at": "2026-11-02T01:27:00.356668+00:00"
+}

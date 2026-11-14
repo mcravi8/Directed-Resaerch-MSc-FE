@@ -1,0 +1,11 @@
+{
+  "source_indices": 8,
+  "candidate_triggers": 234,
+  "accepted_onsets": 100,
+  "eligible_event_rows": 64,
+  "date_merged_events": 50,
+  "same_date_extra_rows": 14,
+  "full_footprint_components": 1,
+  "largest_component_events": 64,
+  "inferential_minimum_met": false
+}

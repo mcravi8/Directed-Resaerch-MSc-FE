@@ -1,0 +1,1645 @@
+{
+  "prerequisite_hashes": {
+    "stages/S01_protocol/spec_v1.md": {
+      "actual": "870056afffe30dd7c0970f79a7f27309e5b67c766cf6cb7816272722665cf7f3",
+      "expected": "870056afffe30dd7c0970f79a7f27309e5b67c766cf6cb7816272722665cf7f3"
+    },
+    "stages/S01_protocol/validation_protocol.md": {
+      "actual": "4c5a70469abe30cf8d800def92091c3da589ac0451a29cc8b3dedab82f2242df",
+      "expected": "4c5a70469abe30cf8d800def92091c3da589ac0451a29cc8b3dedab82f2242df"
+    },
+    "stages/S01_protocol/attempt_02/protocol_core.py": {
+      "actual": "cc0bb37f9dd7e8f24262d9363268070a9ee03bd459640024f1d73dbc171eb9e9",
+      "expected": "cc0bb37f9dd7e8f24262d9363268070a9ee03bd459640024f1d73dbc171eb9e9"
+    },
+    "stages/S02a_pooled/spec_v1.md": {
+      "actual": "7e37cabfc3daf3ce28850db9a46d9a75c8608f7b3c2d28bdc9c497f4c00f885b",
+      "expected": "7e37cabfc3daf3ce28850db9a46d9a75c8608f7b3c2d28bdc9c497f4c00f885b"
+    },
+    "stages/S02a_pooled/scripts/pipeline.py": {
+      "actual": "48f351513d75991a8318f3ca153c652f259951ea99f109390c4d3f617a25bf14",
+      "expected": "48f351513d75991a8318f3ca153c652f259951ea99f109390c4d3f617a25bf14"
+    },
+    "omori_pipeline/data/vix_term_structure.csv": {
+      "actual": "f43d78dcca072bca05e6bcacf121f1afb1b480d906d52b3d846949f990547ed6",
+      "expected": "f43d78dcca072bca05e6bcacf121f1afb1b480d906d52b3d846949f990547ed6"
+    },
+    "omori_pipeline/data/shock_events.csv": {
+      "actual": "49a099ded7a54fec9481ca6cd232455605f2160963d5695a87acb7e27ed8406d",
+      "expected": "49a099ded7a54fec9481ca6cd232455605f2160963d5695a87acb7e27ed8406d"
+    }
+  },
+  "seed": 5902026,
+  "event_catalog_n": 33,
+  "oos": {
+    "onset5_primary/VIX30D": {
+      "models": {
+        "AR1": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.1835576265814303,
+          "raw_mae": 3.6844212848537046
+        },
+        "E1": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.20689530039873108,
+          "raw_mae": 4.072378927335601
+        },
+        "E2": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.20741280139589557,
+          "raw_mae": 4.043954836015975
+        },
+        "HAR": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.15585435256993596,
+          "raw_mae": 3.12244602054516
+        },
+        "PL": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.20753780463042976,
+          "raw_mae": 4.076116912585062
+        },
+        "RW": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.19234562716994782,
+          "raw_mae": 3.8497826825017505
+        },
+        "SE": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.20688304640187394,
+          "raw_mae": 4.043048161438297
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.0033034380151927695,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.001041883629172572,
+            "1": -0.0111258518239498,
+            "2": -0.00169076574580344
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.006830922788375027,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0010035476043681532,
+            "1": 0.010232205047286148,
+            "2": 0.006510330641547175
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.007054649576959396,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0010035486208290374,
+            "1": 0.009663664376853067,
+            "2": 0.0069225461879712695
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.012706261076406673,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.0006406366684378016,
+            "1": -0.019938211783394964,
+            "2": -0.01184065523845619
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": 0.0071093438373408145,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0010093244610873478,
+            "1": 0.009820921302421879,
+            "2": 0.006957808195013256
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": 0.006825631881998837,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0010035488230538021,
+            "1": 0.009738333009423696,
+            "2": 0.006613319448407348
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 23
+    },
+    "onset5_primary/VIX3M": {
+      "models": {
+        "AR1": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.12123736972013506,
+          "raw_mae": 2.164570992073015
+        },
+        "E1": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.1588691436823649,
+          "raw_mae": 3.582922359960475
+        },
+        "E2": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.15502166333592549,
+          "raw_mae": 3.450727200219256
+        },
+        "HAR": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.11308784767768951,
+          "raw_mae": 2.070999264769381
+        },
+        "PL": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.15803583096704021,
+          "raw_mae": 3.5496235399529215
+        },
+        "RW": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.12888024563731995,
+          "raw_mae": 2.3953439235687255
+        },
+        "SE": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.1579316880451387,
+          "raw_mae": 3.539339649440347
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.0019116178988792044,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0019116178988792044
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.0077928457733393896,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.0077928457733393896
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.006434195955922859,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.006434195955922859
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.0038212564231636208,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0038212564231636208
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": 0.007515080797990204,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.007515080797990204
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": 0.007458735725190397,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.007458735725190397
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 16
+    },
+    "onset5_primary/VIX6M": {
+      "models": {
+        "AR1": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.0931354535730933,
+          "raw_mae": 1.7116407236735456
+        },
+        "E1": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.1115579321224493,
+          "raw_mae": 2.405004161145446
+        },
+        "E2": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.10788117808418951,
+          "raw_mae": 2.263197582673139
+        },
+        "HAR": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.08782809783411333,
+          "raw_mae": 1.6995076535002922
+        },
+        "PL": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.11044365819742236,
+          "raw_mae": 2.359463060910446
+        },
+        "RW": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.09260955343447162,
+          "raw_mae": 1.814466705322265
+        },
+        "SE": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.11080239390608672,
+          "raw_mae": 2.3725424368736014
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": 9.76833249335626e-05,
+          "groups": 1,
+          "group_losses": {
+            "2": 9.76833249335626e-05
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.0048968828168260295,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.0048968828168260295
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.0039824826955185905,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.0039824826955185905
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.000862754618173677,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.000862754618173677
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": 0.004616784867450461,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.004616784867450461
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": 0.004706480857473159,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.004706480857473159
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 15
+    },
+    "onset5_primary/VIX9D": {
+      "models": {
+        "AR1": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.2672342235361848,
+          "raw_mae": 4.1763831946484276
+        },
+        "E1": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.30536176040080293,
+          "raw_mae": 5.318215256051863
+        },
+        "E2": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.305155117299778,
+          "raw_mae": 5.239475515692774
+        },
+        "HAR": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.2093547734523803,
+          "raw_mae": 3.2266723511002144
+        },
+        "PL": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.3041615730415144,
+          "raw_mae": 5.2723840295447575
+        },
+        "RW": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.2588516585447276,
+          "raw_mae": 4.242038521399865
+        },
+        "SE": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.3051495944236115,
+          "raw_mae": 5.298943717495646
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": 0.00440994909763137,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.00440994909763137
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.026241623583721122,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.026241623583721122
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.026115464482885035,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.026115464482885035
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.02317475996405876,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.02317475996405876
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": 0.025510081383732282,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.025510081383732282
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": 0.02611209384553834,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.02611209384553834
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 13
+    },
+    "onset5_sensitivity/VIX30D": {
+      "models": {
+        "AR1": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.1677278116383924,
+          "raw_mae": 3.3574892661134017
+        },
+        "E1": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.188897234777327,
+          "raw_mae": 4.052631805410356
+        },
+        "E2": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.1813303973865649,
+          "raw_mae": 3.927634748005765
+        },
+        "HAR": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.14094385710783738,
+          "raw_mae": 2.812796432433583
+        },
+        "PL": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.1779587470569755,
+          "raw_mae": 3.9502433418474237
+        },
+        "RW": {
+          "events": 23,
+          "groups": 3,
+          "log_rmse": 0.1879792228455551,
+          "raw_mae": 3.7953261416891335
+        },
+        "SE": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.17884696176877254,
+          "raw_mae": 3.9625450844341703
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.007203569424614827,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.005466235114521052,
+            "1": 0.0071550874550214295,
+            "2": -0.010490900637316981
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.0014588955201987647,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.012653727250501082,
+            "1": 0.009591813309011644,
+            "2": 0.0004356150543903388
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.0014361730164274172,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.012653134164036926,
+            "1": 0.009586190739944074,
+            "2": -0.0032624226763094447
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.015471017365184388,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0041991190885437915,
+            "1": -0.0029877828335553016,
+            "2": -0.018871286054248662
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.00272820006001963,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.012661352520449847,
+            "1": 0.009588411650269434,
+            "2": -0.004913383081171075
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.0023977266293548085,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.012653652184202628,
+            "1": 0.009591835859624554,
+            "2": -0.00449230020719201
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 23
+    },
+    "onset5_sensitivity/VIX3M": {
+      "models": {
+        "AR1": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.10842056696795598,
+          "raw_mae": 2.0123859336918266
+        },
+        "E1": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.13786896563249734,
+          "raw_mae": 3.166055320294072
+        },
+        "E2": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.13873976639167446,
+          "raw_mae": 3.175137188218524
+        },
+        "HAR": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.10300362578641852,
+          "raw_mae": 1.9651505856201736
+        },
+        "PL": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.1366695665868645,
+          "raw_mae": 3.1454481147506246
+        },
+        "RW": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.135834202071456,
+          "raw_mae": 2.6492498338222505
+        },
+        "SE": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.13683121175792842,
+          "raw_mae": 3.152360641341162
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.00669591111073611,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.00669591111073611
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.003735257345011958,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.003735257345011958
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.0034642773703638854,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0034642773703638854
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.007841183527240593,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.007841183527240593
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.0040967387759753855,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0040967387759753855
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.004055962439813944,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.004055962439813944
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 16
+    },
+    "onset5_sensitivity/VIX6M": {
+      "models": {
+        "AR1": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.08775705839240412,
+          "raw_mae": 1.684573676899997
+        },
+        "E1": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.08262554148020185,
+          "raw_mae": 1.7260097721490477
+        },
+        "E2": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.08370130229964498,
+          "raw_mae": 1.7588279452747975
+        },
+        "HAR": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.08398241752578792,
+          "raw_mae": 1.6983975643657436
+        },
+        "PL": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.0817589253926266,
+          "raw_mae": 1.7217846672304118
+        },
+        "RW": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.097700929079223,
+          "raw_mae": 1.92906670888265
+        },
+        "SE": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.08142318483604939,
+          "raw_mae": 1.7152330670652516
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.001844170245255536,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.001844170245255536
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.0023818216769105186,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0023818216769105186
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.002179036676826352,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.002179036676826352
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.002492425089467592,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.002492425089467592
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.0025432846333133625,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0025432846333133625
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.0026053660976691384,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0026053660976691384
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 15
+    },
+    "onset5_sensitivity/VIX9D": {
+      "models": {
+        "AR1": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.2723969091000869,
+          "raw_mae": 4.27119617624159
+        },
+        "E1": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.33720815668845017,
+          "raw_mae": 6.309384910257435
+        },
+        "E2": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.33118040661096315,
+          "raw_mae": 6.296470330362066
+        },
+        "HAR": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.21015352343401122,
+          "raw_mae": 3.231672270063877
+        },
+        "PL": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.3212013895095481,
+          "raw_mae": 6.147740802382339
+        },
+        "RW": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.30994519537056925,
+          "raw_mae": 5.6091153951791615
+        },
+        "SE": {
+          "events": 13,
+          "groups": 1,
+          "log_rmse": 0.32227070042559125,
+          "raw_mae": 6.16233255357216
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.021865948046019285,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.021865948046019285
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": 0.017643316803922057,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.017643316803922057
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.01361443758970257,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.01361443758970257
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.0519015207215708,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0519015207215708
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": 0.0071043084895641385,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.0071043084895641385
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": 0.007792380219500869,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.007792380219500869
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 13
+    },
+    "peak_primary/VIX30D": {
+      "models": {
+        "AR1": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.1577926894118347,
+          "raw_mae": 2.8163040755216078
+        },
+        "E1": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.17195526882316461,
+          "raw_mae": 3.201222853141432
+        },
+        "E2": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.18070085492629706,
+          "raw_mae": 3.3180664757160527
+        },
+        "HAR": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.13875064956668864,
+          "raw_mae": 2.583275055225191
+        },
+        "PL": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.1737807892325053,
+          "raw_mae": 3.2341886558911366
+        },
+        "RW": {
+          "events": 24,
+          "groups": 3,
+          "log_rmse": 0.19222806358692074,
+          "raw_mae": 3.51572919289271
+        },
+        "SE": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.17356513917957292,
+          "raw_mae": 3.231987191000546
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.01205309559855751,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.01722494311128881,
+            "1": -0.0016493761446175603,
+            "2": -0.013971149825032699
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.006781105090161125,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.03482300179257339,
+            "1": 0.02736145085462665,
+            "2": -0.012493122304726326
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.0035683948483400487,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.03482239521604675,
+            "1": 0.027361578180953427,
+            "2": -0.008435020729890953
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.017699885675199204,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.018026175001791225,
+            "1": -0.009047156097786457,
+            "2": -0.01950433983220231
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.006123958061070029,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.03482971310047101,
+            "1": 0.027353579109967753,
+            "2": -0.011661031410793717
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.0062016818990696014,
+          "groups": 3,
+          "group_losses": {
+            "0": -0.0348223534077772,
+            "1": 0.0273613259050211,
+            "2": -0.01176122714684093
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 24
+    },
+    "peak_primary/VIX3M": {
+      "models": {
+        "AR1": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.11167613812272843,
+          "raw_mae": 2.075659611053281
+        },
+        "E1": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.11269022061449482,
+          "raw_mae": 2.158476105687141
+        },
+        "E2": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.1172764053840935,
+          "raw_mae": 2.2567649694749634
+        },
+        "HAR": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.09990369477338394,
+          "raw_mae": 1.9187040275435825
+        },
+        "PL": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.11421344411583485,
+          "raw_mae": 2.183739871733635
+        },
+        "RW": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.13287344196867776,
+          "raw_mae": 2.5269118617562687
+        },
+        "SE": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.11374238957293499,
+          "raw_mae": 2.1768754912381985
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.005183791754596854,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.005183791754596854
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.004413664150263507,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.004413664150263507
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.0032969910088197964,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0032969910088197964
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.007674603351230114,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.007674603351230114
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.004047706261560184,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.004047706261560184
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.004161467236217528,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.004161467236217528
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 17
+    },
+    "peak_primary/VIX6M": {
+      "models": {
+        "AR1": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.09395498030546615,
+          "raw_mae": 1.787983562311989
+        },
+        "E1": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.08215296057824148,
+          "raw_mae": 1.6023022634848694
+        },
+        "E2": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.08694576197626291,
+          "raw_mae": 1.7350203391926209
+        },
+        "HAR": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.08433984283018545,
+          "raw_mae": 1.6948649999650027
+        },
+        "PL": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.08349126064143338,
+          "raw_mae": 1.6348798856768658
+        },
+        "RW": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.09839406775892388,
+          "raw_mae": 1.9230938851833341
+        },
+        "SE": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.08284106947019663,
+          "raw_mae": 1.613506346442501
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.0008538542459471713,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0008538542459471713
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.0032061710963674603,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0032061710963674603
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.002294407231387629,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.002294407231387629
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.0025681834815273205,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0025681834815273205
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.002956640984947837,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.002956640984947837
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.0030784452124663583,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0030784452124663583
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 16
+    },
+    "peak_primary/VIX9D": {
+      "models": {
+        "AR1": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.2374705223612642,
+          "raw_mae": 3.370473186594898
+        },
+        "E1": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.25596018834743245,
+          "raw_mae": 3.773158323422172
+        },
+        "E2": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.2752061132817461,
+          "raw_mae": 3.9424603007730714
+        },
+        "HAR": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.19813682177020212,
+          "raw_mae": 2.952463722831573
+        },
+        "PL": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.2582635358597504,
+          "raw_mae": 3.804017298558582
+        },
+        "RW": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.3055781125872998,
+          "raw_mae": 5.101766815185545
+        },
+        "SE": {
+          "events": 15,
+          "groups": 1,
+          "log_rmse": 0.25758107710772304,
+          "raw_mae": 3.795399622408299
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.036985733901884775,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.036985733901884775
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.027862364873563354,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.027862364873563354
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.017639578104771157,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.017639578104771157
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.05411978275121962,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.05411978275121962
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.026677928937635872,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.026677928937635872
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.02702997160844168,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.02702997160844168
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 15
+    },
+    "peak_sensitivity/VIX30D": {
+      "models": {
+        "AR1": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.17077325270098584,
+          "raw_mae": 3.1265353843070334
+        },
+        "E1": {
+          "events": 26,
+          "groups": 3,
+          "log_rmse": 0.15785786412385405,
+          "raw_mae": 3.1093303327130397
+        },
+        "E2": {
+          "events": 26,
+          "groups": 3,
+          "log_rmse": 0.16259162758473467,
+          "raw_mae": 3.131418775708014
+        },
+        "HAR": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.1554558333703723,
+          "raw_mae": 2.9215473214829215
+        },
+        "PL": {
+          "events": 26,
+          "groups": 3,
+          "log_rmse": 0.15971539992686187,
+          "raw_mae": 3.121978868298396
+        },
+        "RW": {
+          "events": 25,
+          "groups": 3,
+          "log_rmse": 0.18481785660084524,
+          "raw_mae": 3.6840600299835207
+        },
+        "SE": {
+          "events": 26,
+          "groups": 3,
+          "log_rmse": 0.15893570774822108,
+          "raw_mae": 3.1131628561421687
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -0.00499413628045583,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.0020561719596816725,
+            "1": -0.025837572677021574,
+            "2": -0.0011779644131495557
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.008766579682744304,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.007820763806265164,
+            "1": -0.014650729556544721,
+            "2": -0.00841911688243469
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.007188970327348595,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.007550415980424107,
+            "1": -0.014651086238783563,
+            "2": -0.006433516460450234
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.00999112398965364,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.0031461106872711234,
+            "1": -0.02565597594030765,
+            "2": -0.007515015333369075
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.008152776114053946,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.00781550758331679,
+            "1": -0.014651341952247186,
+            "2": -0.007651477131283835
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.008411467597272414,
+          "groups": 3,
+          "group_losses": {
+            "0": 0.007820763429350244,
+            "1": -0.014651015460078666,
+            "2": -0.007975169576042298
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 25
+    },
+    "peak_sensitivity/VIX3M": {
+      "models": {
+        "AR1": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.11816932588860549,
+          "raw_mae": 2.2817147324552662
+        },
+        "E1": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.11395033985357063,
+          "raw_mae": 2.3259218484342385
+        },
+        "E2": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.11694663512109468,
+          "raw_mae": 2.3636556441274887
+        },
+        "HAR": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.10787899510543149,
+          "raw_mae": 2.1408510558540508
+        },
+        "PL": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.11556551106226995,
+          "raw_mae": 2.3497781980880172
+        },
+        "RW": {
+          "events": 18,
+          "groups": 1,
+          "log_rmse": 0.11825036595109055,
+          "raw_mae": 2.3823613060845283
+        },
+        "SE": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.11503457712406667,
+          "raw_mae": 2.3508036584308463
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": -1.915946659938941e-05,
+          "groups": 1,
+          "group_losses": {
+            "2": -1.915946659938941e-05
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.0005294868927274717,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0005294868927274717
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.00020078475132241647,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.00020078475132241647
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.002345271462609125,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.002345271462609125
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.0001382037586065398,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.0001382037586065398
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.00026741919010325694,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.00026741919010325694
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 18
+    },
+    "peak_sensitivity/VIX6M": {
+      "models": {
+        "AR1": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.09239825611073017,
+          "raw_mae": 1.79738025605454
+        },
+        "E1": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.08988735490525272,
+          "raw_mae": 1.9169583204313512
+        },
+        "E2": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.09168368364881087,
+          "raw_mae": 1.9485898225437643
+        },
+        "HAR": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.08592776530890253,
+          "raw_mae": 1.7730831484910485
+        },
+        "PL": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.09096613658518009,
+          "raw_mae": 1.9426696216286317
+        },
+        "RW": {
+          "events": 17,
+          "groups": 1,
+          "log_rmse": 0.08631575053437802,
+          "raw_mae": 1.7314119843875673
+        },
+        "SE": {
+          "events": 19,
+          "groups": 1,
+          "log_rmse": 0.09093475745862423,
+          "raw_mae": 1.9418176002153078
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": 0.0010870289419911048,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.0010870289419911048
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.00023799725197856374,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.00023799725197856374
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": 0.00044995871602092363,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.00044995871602092363
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -6.682793933114646e-05,
+          "groups": 1,
+          "group_losses": {
+            "2": -6.682793933114646e-05
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -1.9653754013504608e-05,
+          "groups": 1,
+          "group_losses": {
+            "2": -1.9653754013504608e-05
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -2.63217612910192e-05,
+          "groups": 1,
+          "group_losses": {
+            "2": -2.63217612910192e-05
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 17
+    },
+    "peak_sensitivity/VIX9D": {
+      "models": {
+        "AR1": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.27492811220565766,
+          "raw_mae": 4.333184671043195
+        },
+        "E1": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.23136873484188838,
+          "raw_mae": 3.91778382386969
+        },
+        "E2": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.23948265565368998,
+          "raw_mae": 3.8198133310370217
+        },
+        "HAR": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.2241177837179234,
+          "raw_mae": 3.6035139119358988
+        },
+        "PL": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.23062100912426683,
+          "raw_mae": 3.8369677144773426
+        },
+        "RW": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.2530083128155953,
+          "raw_mae": 4.317312592267989
+        },
+        "SE": {
+          "events": 16,
+          "groups": 1,
+          "log_rmse": 0.23247330842956296,
+          "raw_mae": 3.884965710829309
+        }
+      },
+      "paired_vs_RW": {
+        "AR1": {
+          "mean_log_mse_difference": 0.01157226052717253,
+          "groups": 1,
+          "group_losses": {
+            "2": 0.01157226052717253
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E1": {
+          "mean_log_mse_difference": -0.010481714891458074,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.010481714891458074
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "E2": {
+          "mean_log_mse_difference": -0.006661263994850296,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.006661263994850296
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "HAR": {
+          "mean_log_mse_difference": -0.01378442537516025,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.01378442537516025
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "PL": {
+          "mean_log_mse_difference": -0.010827156504298975,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.010827156504298975
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        },
+        "SE": {
+          "mean_log_mse_difference": -0.009969367221607428,
+          "groups": 1,
+          "group_losses": {
+            "2": -0.009969367221607428
+          },
+          "interval_status": "descriptive_fewer_than_10_groups"
+        }
+      },
+      "paired_events": 16
+    }
+  },
+  "counts": {
+    "manifest_rows": 528,
+    "eligible_panels": 300,
+    "prediction_rows": 40920,
+    "benchmark_coefficient_rows": 846,
+    "curve_fit_rows": 1200,
+    "event_loss_rows": 2046
+  },
+  "predictor_status": "estimable"
+}
